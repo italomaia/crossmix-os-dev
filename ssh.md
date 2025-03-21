@@ -90,3 +90,10 @@ ln -s $SDBIN/python3 $HOME/bin/
 ln -s /mnt/SDCARD/ sdcard
 ln -s /root/sdcard/Apps/SystemTools/Menu/ menu
 ```
+
+### Adding CLI Programs
+
+One simple trick you can do is to create a folder under `sdcard` and put all your Apps, and
+then link them to your `$HOME/bin`. 
+
+`mkdir /root/sdcard/System/usr/apps`
